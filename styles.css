@@ -1,8 +1,8 @@
-html {
+html{
     display: flex;
     justify-content: center;
     height: 100%;
-  }
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -10,7 +10,7 @@ body {
     padding: 40px;
     background: #f0f0f0;
     align-items: center;
-    widht: 100%;
+    width: 100%;
   }
 
   /*Header*/
