@@ -1,5 +1,7 @@
 html {
-        height: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
   }
 body {
     font-family: Arial, sans-serif;
@@ -8,6 +10,7 @@ body {
     padding: 40px;
     background: #f0f0f0;
     align-items: center;
+    width: 100%;
   }
 
   /*Header*/
