@@ -1,4 +1,4 @@
-const allWords = ['1 جـ', '2 جـ', '5 جـ', '10 جـ', 'فرشة أسنان', 'حامل موبايل', 'عصير أو شيبسي', 'شوكولاته', 'شراب', 'معجون أسنان'];
+const allWords = ['1 جـ', '2 جـ', '5 جـ', '10 جـ', 'فرشة أسنان', 'حامل موبايل', 'بيبسي', 'شوكولاته', 'شراب', 'معجون أسنان'];
 let availableWords = [...allWords];
 let randomizedWords = shuffle([...allWords]);
 let clickedButtonsCount = 0;
@@ -44,7 +44,7 @@ const images = [
         btn.style.backgroundImage = images[i];
         btn.style.backgroundSize = "cover";
         btn.style.backgroundPosition = "center";
-        btn.style.height = "200px";
+        // btn.style.height = "200px";
         // btn.style.width = "250px";
         btn.dataset.index = i;
         btn.addEventListener("click", handleButtonClick);
