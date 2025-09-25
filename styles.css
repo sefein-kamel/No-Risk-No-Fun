@@ -133,8 +133,9 @@ button:hover{
     margin: 0;
 }
 
-.footer span{
+.footer a{
     font-weight: bold;
     color: black;
     font-size: 18px;
+
 }
