@@ -1,4 +1,4 @@
-const allWords = ['1 جـ', '2 جـ', '5 جـ', '10 جـ', 'فرشة أسنان', 'حامل موبايل', 'بيبسي', 'شوكولاته', 'شراب', 'معجون أسنان'];
+const allWords = ['1 جـ', '2 جـ', '5 جـ', '10 جـ', '15 جـ', '20 جـ', 'بيبسي', 'شيبسي', 'ليك هدية', 'تعيش وتاخد غيرها'];
 let availableWords = [...allWords];
 let randomizedWords = shuffle([...allWords]);
 let clickedButtonsCount = 0;
@@ -145,4 +145,5 @@ function shuffle(array) {
 
 // بدء التطبيق
 displaySideWords();
+
 createButtons();
