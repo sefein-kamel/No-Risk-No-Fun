@@ -134,8 +134,10 @@ button:hover{
 }
 
 .footer a{
+    text-decoration: none;
     font-weight: bold;
     color: black;
     font-size: 18px;
 
 }
+
